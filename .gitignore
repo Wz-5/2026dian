@@ -1,0 +1,70 @@
+# =========================
+# Python cache
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# =========================
+# Virtual environment
+# =========================
+.venv/
+venv/
+env/
+ENV/
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# IDE / Editor
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Dataset
+# =========================
+data/
+dataset/
+datasets/
+
+# =========================
+# Training outputs
+# =========================
+outputs/
+outputs_chunkwise/
+outputs_pos_bias/
+runs/
+logs/
+
+# =========================
+# Model weights / checkpoints
+# =========================
+*.pth
+*.pt
+*.ckpt
+
+# =========================
+# Generated images / plots
+# =========================
+*.png
+*.jpg
+*.jpeg
+*.svg
+*.pdf
+
+# =========================
+# Temporary / misc
+# =========================
+*.log
+*.tmp
+*.bak
